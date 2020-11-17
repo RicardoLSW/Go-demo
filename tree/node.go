@@ -8,7 +8,7 @@ type Node struct {
 }
 
 func (node Node) Print() {
-	fmt.Println(node.Value)
+	fmt.Print(node.Value, " ")
 }
 
 func (node *Node) SetValue(Value int) {
