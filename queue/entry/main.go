@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	q := queue.Queue{1}
+	q := queue.Queue{"a"}
 	q.Push(2)
-	q.Push(3)
+	q.Push("c")
 	fmt.Println(q.Pop())
 	fmt.Println(q.Pop())
 	fmt.Println(q.IsEmpty())
