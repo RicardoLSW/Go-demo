@@ -19,15 +19,6 @@ func (node *Node) SetValue(Value int) {
 	node.Value = Value
 }
 
-func (node *Node) Traverse() {
-	if node == nil {
-		return
-	}
-	node.Left.Traverse()
-	node.Print()
-	node.Right.Traverse()
-}
-
 func CreateTreeNode(Value int) *Node {
 	return &Node{Value: Value}
 }
