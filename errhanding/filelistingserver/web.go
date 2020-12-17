@@ -4,6 +4,7 @@ import (
 	"go-demo/errhanding/filelistingserver/fileListing"
 	"log"
 	"net/http"
+	_ "net/http/pprof"
 	"os"
 )
 
